@@ -16,7 +16,8 @@
     font-size: 1.3rem;
 }
 .name{
-    font-size: clamp(60px, 6.5vw, 85px);
+    font-size: clamp(50px, 6.5vw, 75px);
+    letter-spacing: -1px;
     font-weight: 600;
     line-height: 1.2em;
     transition: 0.2s;
