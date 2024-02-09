@@ -15,8 +15,8 @@ export default function About ({darkMode}) {
             <p>
               Hey World!, I'm David Akintade, a Software Engineer based in Lagos, Nigeria. My journey began some years ago, when i was taken to an andela bootcamp <br />
               <span></span>
-              I have a background in computer science, where i know lots of concepts like Data Structures and Algorithms,
-              Object Oriented Programming, Software design, Operating Systems and more
+              I have a background in computer science, where i understand lots of concepts like Data Structures and Algorithms,
+              Object Oriented Programming, Software design, Operating Systems and more,
               I also have mastery and experience using varoious languages and technologies like Python, Javascript, Typescript, ReactJS, NextJS, NodeJs, MongoDB,
               MySQL and more
 
