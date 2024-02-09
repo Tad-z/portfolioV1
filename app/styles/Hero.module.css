@@ -1,7 +1,7 @@
 .main{
    height: calc(100vh - 120px);
    display: flex;
-   justify-content: space-between;
+   justify-content: center;
    color: rgb(218, 235, 217);
    align-items: center;
    position: relative;
@@ -10,6 +10,7 @@
 .heroText{
     width: 62%;
     animation: fadeUp 1s;
+    text-align: center;
 }
 .heroText p:first-child{
     font-size: 1.3rem;
@@ -29,7 +30,7 @@
     transition: 0.2s;
 }
 .descLittle{
-    width: clamp(300px, 40vw, 650px);;
+    /* width: clamp(300px, 40vw, 650px);; */
     padding: 20px 0;
     font-size: 1em;
     transition: 0.3s;

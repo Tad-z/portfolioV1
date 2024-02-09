@@ -2,7 +2,7 @@
     font-size: 1.8rem;
     font-weight: 900;
     letter-spacing: 0.03em;
-    background: linear-gradient(90deg, rgba(200,241,153,1) 0%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(90deg, #9d6c4e 0%, #545456 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -47,7 +47,7 @@
   }
   .headerDark{
     border-radius: 0 0 30px 30px;
-    background: #01182ede;
+    background: #252529;
     backdrop-filter: blur(5px);
     color: #e1e1e1;
     transition: 0.2s ease;

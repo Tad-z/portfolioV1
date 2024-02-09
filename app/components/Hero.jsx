@@ -18,14 +18,14 @@ function Hero({ darkMode }) {
         </p>
         <h2
           className={styles.name}
-          style={darkMode ? { color: "#fff" } : { color: "#333" }}
+          style={darkMode ? { color: "#f4f4f5" } : { color: "#333" }}
         >
           David Akintade
         </h2>
-        <h2 className={styles.descBig}>I build Web Applications</h2>
+        {/* <h2 className={styles.descBig}>I build Web Applications</h2> */}
         <p
           className={styles.descLittle}
-          style={darkMode ? { color: "#fff" } : { color: "#222" }}
+          style={darkMode ? { color: "#93939b" } : { color: "#222" }}
         >
           I'm a Software Engineer specialized in crafting exceptional digital
           experiences.

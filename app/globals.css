@@ -5,7 +5,7 @@
 
 html{
     scroll-behavior: smooth;
-    background: #010e1b;
+    background: #1E1E2E !important;
     -webkit-tap-highlight-color: transparent;
     /* font-family: "Gabritto" */
 }
