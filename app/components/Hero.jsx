@@ -27,11 +27,9 @@ function Hero({ darkMode }) {
           className={styles.descLittle}
           style={darkMode ? { color: "#93939b" } : { color: "#222" }}
         >
-          I'm a Software Engineer specialized in crafting exceptional digital
-          experiences.
+          I'm a Software Engineer
           <br />
-          From implementing user interfaces to optimizing backend systems, I
-          take pride in delivering top-notch software that exceeds expectations
+          I translate ideas into pixel-perfect experiences, bridging the gap between user delight and business goals.
           🚀
         </p>
         <Link href={"/resume.pdf"} target="_blank" rel="noreferrer">

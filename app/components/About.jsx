@@ -13,18 +13,22 @@ export default function About ({darkMode}) {
         <div className={styles.aboutTextContainer}>
           <div className={styles.aboutText}>
             <p>
-              Hey there!, I'm Temitope Akinkuade, a Software Engineer based in Lagos, Nigeria. <span> Call me Topman for short. </span> My journey began a few years ago, as a graphic artist, inspired by my mother, a brand designer. <br />Along the way, I ventured into the world of web development, mastering fundamental languages and technologies.
+              Hey World!, I'm David Akintade, a Software Engineer based in Lagos, Nigeria. My journey began some years ago, when i was taken to an andela bootcamp <br />
               <span></span>
-              Now, I'm an avid explorer of a variety of JavaScript frameworks, including Angular, React, Express, Next, and more. My passion lies in cooking dynamic and engaging web experiences that seamlessly blend design, functionality and value.
+              I have a background in computer science, where i know lots of concepts like Data Structures and Algorithms,
+              Object Oriented Programming, Software design, Operating Systems and more
+              I also have mastery and experience using varoious languages and technologies like Python, Javascript, Typescript, ReactJS, NextJS, NodeJs, MongoDB,
+              MySQL and more
+
             </p>
             <div className={styles.links}>
-              <Link href={"https://github.com/Topman-14"} target='_blank'>
+              <Link href={"https://github.com/Tad-z"} target='_blank'>
                 <BsGithub />
               </Link>
-              <Link href={"https://www.linkedin.com/in/tope-akinkuade"} target='_blank'>
+              <Link href={"https://www.linkedin.com/in/david-akintade-228374222/"} target='_blank'>
                 <BsLinkedin />
               </Link>
-              <Link href={"mailto:talktotimothy101@gmail.com?body=Hey%2C%20I%20saw%20your%20portfolio%20online%2C%20and%20I'd%20like%20to..."}>
+              <Link href={"mailto:david.akintade1000@gmail.com?body=Hey%2C%20I%20saw%20your%20portfolio%20online%2C%20and%20I'd%20like%20to..."}>
                 <BsFillEnvelopeAtFill />
               </Link>
             </div>

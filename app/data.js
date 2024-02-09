@@ -45,14 +45,7 @@ const projects = [
 ]
 
 const ingredients = [
-    {
-        title: "Photoshop",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg"
-    },
-    {
-        title: "Illustrator",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/illustrator/illustrator-plain.svg"
-    },
+
     {
         title: "Figma",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
@@ -65,10 +58,7 @@ const ingredients = [
         title: "Next",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
     },
-    {
-        title: "Angular",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg"
-    },
+
     {
         title: "Express",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
@@ -105,14 +95,7 @@ const ingredients = [
         title: "MongoDB",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
     },
-    {
-        title: "PostgreSQL",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
-    },
-    {
-        title: "WordPress",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg"
-    }
+
 ];
 
 module.exports = { projects, ingredients }

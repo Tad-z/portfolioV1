@@ -33,8 +33,9 @@
 .descLittle{
     /* width: clamp(300px, 40vw, 650px);; */
     padding: 20px 0;
-    font-size: 1em;
+    font-size: 1.2em;
     transition: 0.3s;
+    margin-bottom: 8px;
 }
 .heroImg{
     position: relative;
