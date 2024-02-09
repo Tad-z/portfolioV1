@@ -77,7 +77,7 @@ const ingredients = [
     },
     {
         title: "Tailwind",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"
     },
     {
         title: "JavaScript",
