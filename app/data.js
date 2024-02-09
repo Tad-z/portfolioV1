@@ -1,12 +1,12 @@
 const projects = [
     {
         id:1,
-        title:"FantasTick - Productivity app",
-        description:"A vibrant productivity app with CRUD functionalities and a user-friendly interface. Signup, add tasks with detailed descriptions, edit a task, tick it off or delete it.",
-        stack:["React", "Vite", "Vercel", "Express", "Node", "MongoDB Atlas"],
-        image:"/images/fantastick.png",
-        github:"https://github.com/Topman-14/FantasTick",
-        link:"https://fantastick.vercel.app"
+        title:"Emax - Ecommerce web application",
+        description:"A fully functional E-commerce Website with features like sign up, log in, cart, orders, sleek user interface and much more,",
+        stack:["MongoDB", "ExpressJS", "NextJS", "NodeJS", "CSS", "tailwind-CSS"],
+        image:"/images/emax.png",
+        github:"https://github.com/Tad-z/EcommerceApp",
+        link:"https://emax.vercel.app/"
     },
     {
         id:2,
