@@ -10,7 +10,7 @@ function Hero({ darkMode }) {
         <p
           style={
             darkMode
-              ? { color: "rgb(195, 253, 234)" }
+              ? { color: "#6c6667" }
               : { color: "rgb(4 94 117)" }
           }
         >
