@@ -1,0 +1,113 @@
+.projectWrapper{
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    padding: 0 20px;
+    align-items: center;
+    justify-content: center;
+    /* isleft= true */
+    
+}
+.projectText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+.projectName{
+    font-size: 1.7em;
+    font-weight: 600;
+}
+.projectDesc{
+    padding: 16px 22px;
+    backdrop-filter: blur(4px);
+    font-size: 0.9em;
+}
+.projectStack{
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    margin-bottom: 15px;
+    font-size: 0.8em;
+}
+.projectLinks{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-size: 1.5em;
+    padding-right: 10px;
+    margin-top: 8px;
+}
+.projectLinks a{
+    transition: 0.2s;
+}
+.projectLinks a:hover{
+    color: rgb(0, 255, 153);
+}
+.projectImg img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: 0.2s ease;
+    border-radius: 20px;
+}
+.projectImg{
+    position: relative;
+    border-radius: 20px;
+    width: 35%;
+    height: fit-content;
+    min-width: 200px;
+    box-shadow: 20px 20px 90px 10px #00aeff4d, 0 0 8px rgba(0, 0, 0, 0.197);
+}
+.imgOverlay{
+    border-radius: 20px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: 0.2s ease;
+    background: #0167cd5c;
+}
+.imgOverlayWhite{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: 0.2s ease;
+}
+.imgOverlay:hover{
+    background: #00000000;
+}
+
+@media (max-width:1024px) {
+    .projectWrapper{
+        flex-direction: column !important;
+        gap: 25px;
+        align-items: center;
+    }
+    .projectText{
+        width: 100%;
+        align-items: center;
+    }
+    .projectDesc{
+        margin: 20px 0 !important;
+        background-color: #00000000 !important;
+        padding: 18px 0;
+        text-align: center !important;
+        max-width: 500px;
+    }
+    .projectLinks{
+        justify-content: center !important;
+        margin: 20px 0;
+    }
+    .projectName{
+        text-align: center !important;
+    }
+    .projectStack{
+        justify-content: center !important;
+        flex-wrap: wrap;
+        row-gap: 10px;
+    }
+    .projectImg{
+        width: 100%;
+        max-width: 420px;
+    }
+}

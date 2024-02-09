@@ -1,0 +1,24 @@
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background: rgb(21, 22, 48) url("/annoyingBg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+.loaderImg > img{
+    border-radius: 20px;
+}
+.loaderMsg{
+    display: flex;
+    justify-content: center;
+    font-size: 1.3em;
+    color: #fff;
+}
+.loaderMsg > img{
+    height: 1.5em;
+}
