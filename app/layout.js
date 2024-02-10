@@ -5,7 +5,7 @@ import Preloader from './Preloader.jsx'
 const gabarito = Gabarito({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Topman | Software Engineer',
+  title: 'Tade | Software Engineer',
   description: 'Topman',
   image: './images/ogimage.png'
 }
