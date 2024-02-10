@@ -120,7 +120,7 @@ const Contactform = ({ isDarkMode }) => {
               {...field}
               id='message'
               rows={10}
-              placeholder='Type your message'
+              placeholder='Type your message...'
               className={isDarkMode ? styles.formInputDark : styles.formInput}
             />
           )}
