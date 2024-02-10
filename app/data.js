@@ -39,7 +39,7 @@ const projects = [
     {
         id:5,
         title:"TU Cosel - Counselling App",
-        description:"A counseling system I contributed to, designed to offer accessible and convenient services to students through web-based resources, live chat, and appointment booking options.",
+        description:"This is a mini instagram clone where users can edit their bio, add pictures to their gallery, change their profilepicture.",
         stack:["ReactJS", "DexieJS"],
         image:"/images/ig.png",
         github:"https://github.com/Tad-z/seriesApp",
