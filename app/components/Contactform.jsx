@@ -107,7 +107,7 @@ const Contactform = ({ isDarkMode }) => {
           <p className='text-red-500 text-sm text-right'>{errors.email.message}</p>
         )}
       </div>
-      <div className='mb-5'>
+      <div className='mb-10'>
         {/* <label htmlFor='message' className='mb-3 block text-base font-medium'>
           Message
         </label> */}
@@ -137,10 +137,10 @@ const Contactform = ({ isDarkMode }) => {
             background: isLoading ? "#444" : "#9d6c4e",
             borderRadius: "10px"
            }}
-          className='flex hover:scale-105 bg-[#9d6c4e] py-2 px-5 text-lg transition-transform font-semibold text-white outline-none gap-1 items-center'
+          className='flex hover:scale-105 bg-[#9d6c4e] py-3 px-6 text-lg transition-transform font-semibold text-white outline-none gap-1 items-center'
         >
           {isLoading && <img src={"/loader.svg"} alt='' />}
-          <p>{isLoading? "Loading.." : "Send Message"}</p>
+          <p>{isLoading? "Loading.." : "Submit"}</p>
         </button>
       </div>
     </form>
