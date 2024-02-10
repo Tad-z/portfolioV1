@@ -11,7 +11,7 @@ const projects = [
     {
         id:2,
         title:"Series Recommendation website",
-        description:"A series recommending web app, where users can view series they can watch, add series they would like otherstowatchand users can also sort series.",
+        description:"A series recommending web app, where users can view series they can watch, add series they would like others to watch and users can also sort series.",
         stack:["MongoDB", "ExpressJS", "NextJS", "NodeJS", "CSS"],
         image:"/images/series.png",
         github:"https://github.com/Tad-z/seriesApp",
