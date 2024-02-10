@@ -54,7 +54,7 @@ export default function Contact({ darkMode }) {
         <div className={styles.formText}>
           <Contactform isDarkMode={darkMode} />
         </div>
-        <div className={styles.contactFormContainer}>
+        <div className={styles.imgBox}>
           <Image
             src={"/images/code2.jpg"}
             height={300}
