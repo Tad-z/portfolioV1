@@ -54,15 +54,10 @@ export default function Contact({ darkMode }) {
         <div className={styles.formText}>
           <Contactform isDarkMode={darkMode} />
         </div>
-        <div className={styles.imgBox}>
-          <Image
-            src={"/images/code2.jpg"}
-            height={300}
-            width={400}
-            priority={true}
-            alt="pawpaw business meme"
-          />
-          
+        <div className={styles.imgBox}
+        role="img"
+        aria-label="woman enjoying food">
+           
         </div>
       </div>
     </section>

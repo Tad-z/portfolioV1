@@ -83,10 +83,11 @@ const Contactform = ({ isDarkMode }) => {
   return (
     <form onSubmit={handleSubmit(onSubmit)}>
       <ToastContainer draggable={false}/>
+      <h2 className='text-center font-semibold text-2xl mb-10'>Message Me</h2>
       <div className='mb-5'>
-        <label htmlFor='email' className='mb-3 block text-base font-medium'>
+        {/* <label htmlFor='email' className='mb-3 block text-base font-medium'>
           Your Email Address
-        </label>
+        </label> */}
         <Controller
           name='email'
           control={control}
@@ -97,7 +98,7 @@ const Contactform = ({ isDarkMode }) => {
               id='email'
               autoComplete='true'
               type='email'
-              placeholder='example@domain.com'
+              placeholder='Enter Your Email'
               className={isDarkMode ? styles.formInputDark : styles.formInput}
             />
           )}
@@ -107,9 +108,9 @@ const Contactform = ({ isDarkMode }) => {
         )}
       </div>
       <div className='mb-5'>
-        <label htmlFor='message' className='mb-3 block text-base font-medium'>
+        {/* <label htmlFor='message' className='mb-3 block text-base font-medium'>
           Message
-        </label>
+        </label> */}
         <Controller
           name='message'
           control={control}
