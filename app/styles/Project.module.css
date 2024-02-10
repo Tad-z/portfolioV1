@@ -57,7 +57,7 @@
     width: 35%;
     height: fit-content;
     min-width: 200px;
-    box-shadow: 20px 20px 90px 10px #00aeff4d, 0 0 8px rgba(0, 0, 0, 0.197);
+    box-shadow: 20px 20px 90px 10px #a77b60, 0 0 8px rgba(0, 0, 0, 0.197);
 }
 .imgOverlay{
     border-radius: 20px;

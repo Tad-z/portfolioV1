@@ -83,7 +83,7 @@ const Contactform = ({ isDarkMode }) => {
   return (
     <form onSubmit={handleSubmit(onSubmit)}>
       <ToastContainer draggable={false}/>
-      <h2 className='text-center font-semibold text-2xl mb-10'>Message Me</h2>
+      <h2 className='text-center font-semibold text-2xl mb-10'>Get In Touch</h2>
       <div className='mb-5'>
         {/* <label htmlFor='email' className='mb-3 block text-base font-medium'>
           Your Email Address
@@ -134,10 +134,10 @@ const Contactform = ({ isDarkMode }) => {
           disabled={isLoading}
           style={{ 
             cursor: isLoading ? 'wait' : 'pointer',
-            background: isLoading ? "#444" : "#9d6c4e",
+            background: isLoading ? "#444" : "#b18971",
             borderRadius: "10px"
            }}
-          className='flex hover:scale-105 bg-[#9d6c4e] py-3 px-6 text-lg transition-transform font-semibold text-white outline-none gap-1 items-center'
+          className='flex hover:scale-105 bg-[#b18971] py-3 px-6 text-lg transition-transform font-semibold text-white outline-none gap-1 items-center'
         >
           {isLoading && <img src={"/loader.svg"} alt='' />}
           <p>{isLoading? "Loading.." : "Submit"}</p>
