@@ -10,29 +10,31 @@ const projects = [
     },
     {
         id:2,
-        title:"ScholarPro - Desktop LMS",
-        description:"A comprehensive LMS that provides an efficient and user-friendly platform for educational institutions, instructors, and students to interact and collaborate.",
-        stack:["C#", "Visual Studio", "MySQL", "XAMPP"],
-        image:"/images/scholar_pro.jpg",
-        github:"https://github.com/Topman-14/ScholarPro",
+        title:"Series Recommendation website",
+        description:"A series recommending web app, where users can view series they can watch, add series they would like otherstowatchand users can also sort series.",
+        stack:["MongoDB", "ExpressJS", "NextJS", "NodeJS", "CSS"],
+        image:"/images/series.jpg",
+        github:"https://github.com/Tad-z/seriesApp",
+        link:"https://series-app-six.vercel.app"
         
     },
     {
         id:3,
-        title:"StudyArchives - Landing page",
-        description:"Landing page for an extensive collection of past exam papers, meticulously gathered from diverse subjects and academic levels.",
-        stack:["React", "Next.js", "Tailwind CSS", "Vercel", "MUI icons"],
-        image:"/images/studyarchives.png",
-        github:"https://github.com/Topman-14/StudyArchives",
-        link:"https://study-archives.vercel.app"
+        title:"Quiz Application",
+        description:"This is a quiz web application where users take a quiz, view their result and vew the top 10 results of that quiz.",
+        stack:["MongoDB", "ExpressJS", "ReactJS", "NodeJS", "CSS"],
+        image:"/images/quiz.png",
+        github:"https://github.com/Tad-z/seriesApp",
+        link:"https://quiz-app-t6ai.onrender.com"
     },
     {
         id:4,
         title:"Lecturely - Web-based Lecturer Management System",
         description:"An application I developed as part of an academic project. It is a system that allows a school adminstration handle their lecturers and their information",
         stack:["Java", "NetBeans", "XAMPP", "MySQL"],
-        image:"/images/lecturely.png",
-        github:"https://github.com/Topman-14/lecturely",
+        image:"/images/omnifood.png",
+        github:"https://github.com/Tad-z/seriesApp",
+        link: "https://tade-omnifood.vercel.app/"
     },
     {
         id:5,
