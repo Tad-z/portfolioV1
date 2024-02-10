@@ -6,7 +6,7 @@ const gabarito = Gabarito({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Tade | Software Engineer',
-  description: 'Topman',
+  description: 'Akintade David Portfolio Website',
   image: './images/ogimage.png'
 }
 
