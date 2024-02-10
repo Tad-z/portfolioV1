@@ -42,7 +42,8 @@ const projects = [
         description:"A counseling system I contributed to, designed to offer accessible and convenient services to students through web-based resources, live chat, and appointment booking options.",
         stack:["ReactJS", "DexieJS"],
         image:"/images/ig.png",
-        github:"https://tade-ig-clone.vercel.app/",
+        github:"https://github.com/Tad-z/seriesApp",
+        link:"https://tade-ig-clone.vercel.app/",
     }
 ]
 
