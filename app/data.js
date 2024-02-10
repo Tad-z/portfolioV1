@@ -29,20 +29,20 @@ const projects = [
     },
     {
         id:4,
-        title:"Lecturely - Web-based Lecturer Management System",
-        description:"An application I developed as part of an academic project. It is a system that allows a school adminstration handle their lecturers and their information",
-        stack:["Java", "NetBeans", "XAMPP", "MySQL"],
+        title:"Omnifood",
+        description:"This is a website developed for a company with sleek user interface and good user experience",
+        stack:["html", "css" , "javascript"],
         image:"/images/omnifood.png",
         github:"https://github.com/Tad-z/seriesApp",
         link: "https://tade-omnifood.vercel.app/"
     },
     {
         id:5,
-        title:"TU Counsel - Counselling App",
+        title:"TU Cosel - Counselling App",
         description:"A counseling system I contributed to, designed to offer accessible and convenient services to students through web-based resources, live chat, and appointment booking options.",
-        stack:["Django", "Sqlite", "JavaScript", "YouTube API", "Google Calender API"],
-        image:"/images/tucounsel.png",
-        github:"https://github.com/YoungAli/Real-counselling",
+        stack:["ReactJS", "DexieJS"],
+        image:"/images/ig.png",
+        github:"https://tade-ig-clone.vercel.app/",
     }
 ]
 
