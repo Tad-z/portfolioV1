@@ -13,7 +13,7 @@ const projects = [
         title:"Series Recommendation website",
         description:"A series recommending web app, where users can view series they can watch, add series they would like otherstowatchand users can also sort series.",
         stack:["MongoDB", "ExpressJS", "NextJS", "NodeJS", "CSS"],
-        image:"/images/series.jpg",
+        image:"/images/series.png",
         github:"https://github.com/Tad-z/seriesApp",
         link:"https://series-app-six.vercel.app"
         
