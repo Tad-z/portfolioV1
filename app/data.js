@@ -38,7 +38,7 @@ const projects = [
     },
     {
         id:5,
-        title:"TU Cosel - Counselling App",
+        title:"Instagram Clone",
         description:"This is a mini instagram clone where users can edit their bio, add pictures to their gallery, change their profilepicture.",
         stack:["ReactJS", "DexieJS"],
         image:"/images/ig.png",
