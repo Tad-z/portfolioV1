@@ -49,7 +49,7 @@ export default function Contact({ darkMode }) {
       id="contact"
     >
     <h3>Contact Me</h3>
-    <p className={styles.ptag}>Get In Touch</p>
+    {/* <p className={styles.ptag}>Get In Touch</p> */}
       <div className={styles.formContainer}>
         <div className={styles.formText}>
           <Contactform isDarkMode={darkMode} />
