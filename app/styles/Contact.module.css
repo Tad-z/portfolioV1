@@ -1,3 +1,14 @@
+.formContainer {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    /* background-image: linear-gradient(to right bottom, #9d6c4e, #5e412f); */
+    box-shadow: 0 2.4rem 2.8rem rgba(0, 0, 0, 0.15);
+    border-radius: 11px;
+    overflow: hidden;
+}
+.formText {
+    padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+}
 .contactContainer{
     display: flex;
     gap: 20px;
