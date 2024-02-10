@@ -24,7 +24,7 @@ const projects = [
         description:"This is a quiz web application where users take a quiz, view their result and vew the top 10 results of that quiz.",
         stack:["MongoDB", "ExpressJS", "ReactJS", "NodeJS", "CSS"],
         image:"/images/quiz.png",
-        github:"https://github.com/Tad-z/seriesApp",
+        github:"https://github.com/Tad-z/MyQuizApp_Client",
         link:"https://quiz-app-t6ai.onrender.com"
     },
     {
@@ -33,7 +33,7 @@ const projects = [
         description:"This is a website developed for a company with sleek user interface and good user experience",
         stack:["html", "css" , "javascript"],
         image:"/images/omnifood.png",
-        github:"https://github.com/Tad-z/seriesApp",
+        github:"https://github.com/Tad-z/OmniFood",
         link: "https://tade-omnifood.vercel.app/"
     },
     {
@@ -42,7 +42,7 @@ const projects = [
         description:"This is a mini instagram clone where users can edit their bio, add pictures to their gallery, change their profilepicture.",
         stack:["ReactJS", "DexieJS"],
         image:"/images/ig.png",
-        github:"https://github.com/Tad-z/seriesApp",
+        github:"https://github.com/Tad-z/InstagramClone",
         link:"https://tade-ig-clone.vercel.app/",
     }
 ]
