@@ -51,6 +51,13 @@
     transition: 0.2s ease;
     border-radius: 20px;
 }
+.projectImgLight img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: 0.2s ease;
+    border-radius: 20px;
+}
 .projectImg{
     position: relative;
     border-radius: 20px;
@@ -59,6 +66,16 @@
     min-width: 200px;
     box-shadow: 20px 20px 90px 10px #a77b60, 0 0 8px rgba(0, 0, 0, 0.197);
 }
+
+.projectImgLight{
+    position: relative;
+    border-radius: 20px;
+    width: 35%;
+    height: fit-content;
+    min-width: 200px;
+    box-shadow: 20px 20px 90px 10px #54747b, 0 0 8px rgba(0, 0, 0, 0.197);
+}
+
 .imgOverlay{
     border-radius: 20px;
     position: absolute;
@@ -68,15 +85,20 @@
     background: #2d2c245c;
 }
 .imgOverlayWhite{
+    border-radius: 20px;
     position: absolute;
     width: 100%;
     height: 100%;
     transition: 0.2s ease;
+    transition: 0.2s ease;
+    background: #1515155c;
 }
 .imgOverlay:hover{
     background: #00000000;
 }
-
+.imgOverlayWhite:hover{
+    background: #00000000;
+}
 @media (max-width:1024px) {
     .projectWrapper{
         flex-direction: column !important;
