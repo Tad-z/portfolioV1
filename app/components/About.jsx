@@ -9,7 +9,7 @@ import { BsGithub, BsLinkedin, BsFillEnvelopeAtFill } from "react-icons/bs";
 export default function About ({darkMode}) {
   return (
     <section className='wrapper' style={darkMode? {color:"#e1e1e1"} : {color: "#333"}} id="about">
-        <h3>About Me✌️<span style={darkMode? {color: "#444"} : {color:"#c5c5c5"}}>{"() {"}</span></h3>
+        <h3 className='font-semibold'>About Me<span style={darkMode? {color: "#444"} : {color:"#c5c5c5"}}>{"() {"}</span></h3>
         <div className={styles.aboutTextContainer}>
           <div className={styles.aboutText}>
             <p>
@@ -18,7 +18,7 @@ export default function About ({darkMode}) {
               I now have about 2 years plus of professional experience where i have worked in various companies, collaborated and built various projects coupled with my background in computer science, where i understand lots of concepts like Data Structures and Algorithms,
               Object Oriented Programming, Software design, Operating Systems, Human Computer Interaction and more,
               I also have mastery and experience using varoious languages and technologies like Python, Javascript, Typescript, ReactJS, NextJS, NodeJs, MongoDB,
-              MySQL and more
+              MySQL and more.
 
             </p>
             <div className={styles.links}>
