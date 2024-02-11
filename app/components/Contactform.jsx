@@ -134,10 +134,11 @@ const Contactform = ({ isDarkMode }) => {
           disabled={isLoading}
           style={{ 
             cursor: isLoading ? 'wait' : 'pointer',
-            background: isLoading ? "#444" : "#b18971",
-            borderRadius: "10px"
+            background: isLoading ? "#444" : "#916346",
+            background: isDarkMode ? "#916346" : "#444",
+            borderRadius: "12px"
            }}
-          className='flex hover:scale-105 bg-[#b18971] py-3 px-6 text-lg transition-transform font-semibold text-white outline-none gap-1 items-center'
+          className='flex hover:scale-105 py-4 px-8 text-xl transition-transform font-bold text-white outline-none gap-1 items-center'
         >
           {isLoading && <img src={"/loader.svg"} alt='' />}
           <p>{isLoading? "Loading.." : "Submit"}</p>
