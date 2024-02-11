@@ -34,9 +34,9 @@ function Navbar({handleClick, darkMode}) {
           <h1 className={darkMode? styles.logo : styles.logoLight}>Tade</h1>
         </Link>
         <ul className={styles.navItemWrapper}>
-          <Link href={"#about"}><li className={styles.navUlItems}>About</li></Link>
-          <Link href={"#projects"}><li className={styles.navUlItems}>Projects</li></Link>
-          <Link href={"#contact"}><li className={styles.navUlItems}>Contact</li></Link>
+          <Link href={"#about"}><li className={darkMode ? styles.navUlItems : styles.navUlItemsLight}>About</li></Link>
+          <Link href={"#projects"}><li className={darkMode ? styles.navUlItems : styles.navUlItemsLight}>Projects</li></Link>
+          <Link href={"#contact"}><li className={darkMode ? styles.navUlItems : styles.navUlItemsLight}>Contact</li></Link>
           <li className='flex items-center text-2xl mr-10 cursor-pointer' onClick={handleClick}> {darkMode ?  <LuSunMedium /> : <LuMoon /> }</li>
         </ul>
       </nav>
