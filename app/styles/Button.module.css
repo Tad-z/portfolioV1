@@ -20,6 +20,7 @@
     position: relative;
     background:transparent;
     border: 2px solid #111;
+    background: linear-gradient(#bdb5b5, #bdb5b5) padding-box,linear-gradient(to right, #248ba5, #0a3843 100%) border-box;
 }
 .btn:hover{
     scale: 1.05;
@@ -37,5 +38,8 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    color: black;
+    background: linear-gradient(90deg, #0a3843 0%, #54747b 100%);
+    -webkit-background-clip: text; 
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }

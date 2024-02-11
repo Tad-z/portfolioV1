@@ -9,9 +9,12 @@
 }
 .logoLight{
     font-size: 1.8rem;
-    font-weight: 900;
+    font-weight: 700;
     letter-spacing: 0.03em;
-    color: #248ba5;
+    background: linear-gradient(90deg, #0a3843 0%, #238299 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .navUlItems{
     padding: 5px 3px;
