@@ -56,7 +56,7 @@ export default function Contact({ darkMode }) {
         </div>
         <div className={styles.imgBox}
         role="img"
-        aria-label="woman enjoying food">
+        aria-label="coding on a laptop">
            
         </div>
       </div>
