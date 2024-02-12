@@ -138,7 +138,7 @@ const Contactform = ({ isDarkMode }) => {
             background: isDarkMode ? "#916346" : "#0a3843",
             borderRadius: "12px"
            }}
-          className='flex hover:scale-105 py-4 px-8 text-xl transition-transform font-bold text-white outline-none gap-1 items-center'
+          className={`${isLoading ? styles.submit-buttonBlur : styles.submit-button}`}
         >
           {/* {isLoading && <img src={"/loader.svg"} alt='' />} */}
           <p>{isLoading? "Loading.." : "Submit"}</p>

@@ -57,7 +57,9 @@
     transition: transform 0.3s; 
   }
 
-.submit-button-blur {
+.submit-buttonBlur {
+    opacity: 0.8; 
+    pointer-events: none; 
     display: flex;
     justify-content: center;
     align-items: center;
