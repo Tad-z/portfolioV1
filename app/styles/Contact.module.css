@@ -8,7 +8,7 @@
     margin-bottom: 10rem;
 }
 .formText {
-    padding: 2.4em 4.8em 4.8em 4.8em;
+    padding: 2.4em 4.8em 4.0em 4.0em;
 }
 .imgBox {
     background-image: url(../../public/images/code1.jpg);
@@ -124,6 +124,35 @@ width: clamp(0px, 60%, 800px);
 .sendBtnArea img{
     height: 30px;
 }
+.submitButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px; 
+    font-size: 1.25rem; 
+    font-weight: bold; 
+    color: white; 
+    background-color: transparent; 
+    outline: none; 
+    gap: 4px; 
+    transition: transform 0.3s; 
+  }
+
+.submitButtonBlur {
+    opacity: 0.8; 
+    pointer-events: none; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px; 
+    font-size: 1.25rem; 
+    font-weight: bold;
+    color: white; 
+    background-color: transparent; 
+    outline: none; 
+    gap: 4px; 
+    transition: transform 0.3s;
+} 
 
 @media (max-width: 640px){
     .contactContainer{

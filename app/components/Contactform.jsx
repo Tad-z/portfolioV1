@@ -138,7 +138,7 @@ const Contactform = ({ isDarkMode }) => {
             background: isDarkMode ? "#916346" : "#0a3843",
             borderRadius: "12px"
            }}
-          className={`${isLoading ? styles.submit-buttonBlur : styles.submit-button}`}
+          className={`${isLoading ? styles.submitButtonBlur : styles.submitButton}`}
         >
           {/* {isLoading && <img src={"/loader.svg"} alt='' />} */}
           <p>{isLoading? "Loading.." : "Submit"}</p>
