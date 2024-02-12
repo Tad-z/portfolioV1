@@ -26,3 +26,9 @@ html{
 .bottom_curly_brace{
   margin-top: 10px !important;
 }
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
