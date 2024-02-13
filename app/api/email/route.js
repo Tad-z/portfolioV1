@@ -13,7 +13,7 @@ export async function POST(request) {
   });
 
   const mailOptions = {
-    from: process.env.MY_EMAIL,
+    from: email,
     to: process.env.MY_EMAIL,
     cc: email,
     subject: `Message from ${email? email : "anonymous user"} via portfolio website`,
