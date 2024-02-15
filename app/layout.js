@@ -7,7 +7,7 @@ const gabarito = Gabarito({ subsets: ['latin'] })
 export const metadata = {
   title: 'Tade | Software Engineer',
   description: 'Akintade David Portfolio Website',
-  image: './images/ogimage.png'
+  image: '../public/images/meta.png'
 }
 
 export default function RootLayout({ children }) {
