@@ -1,15 +1,24 @@
 const projects = [
     {
         id:1,
+        title:"CollabLearn - EdTech application",
+        description:"Developed a web-based application using machine learning techniques to intelligently pair learners based on their performance metrics.",
+        stack:["MongoDB", "Fast-api", "React-js", "CSS", "Tailwind-CSS"],
+        image:"/images/webcolla.png",
+        github:"https://github.com/Tad-z/collaborative_learning_matching_system_backend",
+        link:"https://collab-two.vercel.app/"
+    },
+    {
+        id:2,
         title:"Emax - Ecommerce web application",
-        description:"A fully functional E-commerce Website with features like sign up, log in, cart, orders, sleek user interface and much more,",
+        description:"A fully functional E-commerce Website with features like sign up, log in, cart, orders, sleek user interface and much more",
         stack:["MongoDB", "ExpressJS", "NextJS", "NodeJS", "CSS", "tailwind-CSS"],
         image:"/images/emax.png",
         github:"https://github.com/Tad-z/EcommerceApp",
         link:"https://emax.vercel.app/"
     },
     {
-        id:2,
+        id:3,
         title:"Series Recommendation website",
         description:"A series recommending web app, where users can view series they can watch, add series they would like others to watch and users can also sort series.",
         stack:["MongoDB", "ExpressJS", "NextJS", "NodeJS", "CSS"],
@@ -19,7 +28,7 @@ const projects = [
         
     },
     {
-        id:3,
+        id:4,
         title:"Quiz Application",
         description:"This is a quiz web application where users take a quiz, view their result and vew the top 10 results of that quiz.",
         stack:["MongoDB", "ExpressJS", "ReactJS", "NodeJS", "CSS"],
@@ -28,7 +37,7 @@ const projects = [
         link:"https://quiz-app-t6ai.onrender.com"
     },
     {
-        id:4,
+        id:5,
         title:"Omnifood",
         description:"This is a website developed for a company with sleek user interface and good user experience",
         stack:["html", "css" , "javascript"],
@@ -37,7 +46,7 @@ const projects = [
         link: "https://tade-omnifood.vercel.app/"
     },
     {
-        id:5,
+        id:6,
         title:"Instagram Clone",
         description:"This is a mini instagram clone where users can edit their bio, add pictures to their gallery, change their profilepicture.",
         stack:["ReactJS", "DexieJS"],
